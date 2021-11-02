@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      id="chariot"
+      rel="shortcut icon"
+      href="https://www.safem.tn/wp-content/uploads/2016/12/chariot-magasin.jpg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sara shop</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>pc shop</h1>
+      <p>Welcome to My supercool shop</p>
+    </div>
+    <div id="container">
+      <div class="product">
+        <img src="./assets/dell.jpg" alt="dell" height="150px" width="250px" />
+        <h2><span class="prix">300</span>$</h2>
+        <div class="collection">
+          <button class="plus-btn">Add</button>
+          <p class="quantity">0</p>
+          <button class="minus-btn">Decrement</button>
+          <button class="delete-btn">delete</button>
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        </div>
+      </div>
+      <div class="product">
+        <img src="./assets/HP.jpg" alt="hp" height="150px" width="250px" />
+        <h2><span class="prix">500</span>$</h2>
+        <div class="collection">
+          <button class="plus-btn">Add</button>
+          <p class="quantity">0</p>
+          <button class="minus-btn">Decrement</button>
+          <button class="delete-btn">delete</button>
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        </div>
+      </div>
+      <div class="product">
+        <img
+          src="./assets/lenovo.jpg"
+          alt="lenovo"
+          height="150px"
+          width="250px"
+        />
+        <h2><span class="prix">700</span>$</h2>
+        <div class="collection">
+          <button class="plus-btn">Add</button>
+          <p class="quantity">0</p>
+          <button class="minus-btn">Decrement</button>
+          <button class="delete-btn">delete</button>
+          <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+        </div>
+      </div>
+      <h2 id="total">Total: <span id="toot">0 </span></h2>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: rgb(46, 248, 252);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(247,45,253,1) 100%);
+  background-repeat: inherit;
+  height: 100%;
+}
+
+
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto auto auto;
+  margin-top: 120px;
+  flex-direction: column;
+  border-radius: 9px;
+  background-color: white;
+  height: 800px;
+  width: 70%;
+  box-shadow: 12px 12px 2px 1px black;
+}
+
+.plus-btn {
+  background-color: green;
+  border-radius: 8px;
+  height: 40px;
+  width: 70px;
+  font-size: medium;
+  color: white;
+}
+
+.minus-btn {
+  background-color: red;
+  border-radius: 8px;
+  height: 40px;
+  width: 90px;
+  font-size: medium;
+  color: white;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.collection {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+#total {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #9df1e1;
+  color: white;
+  font-size: 30px;
+  border-radius: 5px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+.delete-btn{
+  background-color: rgb(76, 0, 255);
+  border-radius: 8px;
+  height: 40px;
+  width: 90px;
+  font-size: medium;
+  color: white;
+}
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
